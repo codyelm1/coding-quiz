@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    
+
+    
+</head>
+<body>
+    <h1>🔥this is my coding quiz🔥</h1>
+   
+    
+
+    
+</body>
+
+<script>
+    var questions = [
+    {
+        prompt: "what does html stand for?\n(a) hold the main line\n\
+        (b) hypertext markup language\n(c) not sure",
+        answer: "b"
+    },
+    {
+        prompt: "what is a dom DOM?\n(a) Document Object Model\n\
+        (b) Dominant\n(c) not sure",
+        answer: "a"
+    },
+    {
+        prompt: "what is javascript used for?\n(a) Allows interaction between pages\n\
+        (b) drinking coffee and looking over scripts\n(c) not sure",
+        answer: "a"
+    },
+]
+
+ var score = 0;
+   
+  for(var i=0;i < questions.length; i++){
+     var response = window.prompt(questions[i].prompt);
+     if (response == questions[i].answer){
+         score++;
+         alert("correct");
+     } else {
+         alert("wrong");
+     }
+  }
+  alert("you got " + score + "/" + questions.length);
+
+</script>
+
+
+</html>
+
