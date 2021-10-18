@@ -13,4 +13,5 @@ once done you can refresh the page letting you restart the quiz if failed.
 https://codyelm1.github.io/coding-quiz/
 https://github.com/codyelm1/coding-quiz.git
 
-<img width="1440" alt="Screen Shot 2021-10-18 at 12 53 01 PM" src="https://user-images.githubusercontent.com/87910226/137798563-3ed3ae86-7283-4309-aabd-ba8486754f95.png">
+<img width="1440" alt="Screen Shot 2021-10-18 at 12 53 01 PM" src="https://user-images.githubusercontent.com/87910226/137798725-45cd8dd6-7cd5-4571-bbf5-adf76c1a83cb.png">
+
